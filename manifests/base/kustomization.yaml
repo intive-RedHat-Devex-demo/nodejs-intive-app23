@@ -4,5 +4,9 @@ namespace: demo-dev
 resources: 
   - deployment.yaml
   - service.yaml
-  # - namespace.yaml
+  - eventlistener.yaml
+  - ingress.yaml
+  - pipeline.yaml
+  - pipelinerun.yaml
+  - route.yaml
   
